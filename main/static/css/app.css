@@ -1,0 +1,6 @@
+body { min-height: 100vh; }
+.app-card { border: 0; border-radius: 12px; box-shadow: 0 4px 18px rgba(31, 45, 61, .08); overflow: hidden; }
+.form-control, .form-select { border-radius: 8px; }
+input[type="text"], input[type="password"], input[type="email"], input[type="file"], select, textarea { display: block; width: 100%; padding: .375rem .75rem; color: #212529; background-color: #fff; border: 1px solid #ced4da; border-radius: 8px; }
+.errorlist { color: #dc3545; padding-left: 1.25rem; font-size: .875rem; }
+.table thead th { background: #f8f9fa; color: #59636e; font-weight: 600; }

@@ -1,0 +1,6 @@
+{% extends "base.html" %}
+{% block title %}Профиль — EduPage{% endblock %}
+{% block content %}<div class="row justify-content-center"><div class="col-lg-7"><div class="card app-card"><div class="card-body p-4">
+  <h1 class="h3">Профиль</h1><p class="text-secondary">Роль: {{ user.get_role_display }}</p>
+  <form method="post" enctype="multipart/form-data">{% csrf_token %}{% include "partials/form_fields.html" with form=form %}<button class="btn btn-outline-primary" type="submit">Сохранить</button></form>
+</div></div></div></div>{% endblock %}
